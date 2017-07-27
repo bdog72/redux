@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
-
+// import BookList from '../containers/book-list'
+import BookList2 from '../containers/book-list2'
+import BookDetail from '../containers/book-detail'
 class App extends Component {
   render () {
     return <div>
-      <h1>Hello, World!</h1>
+      <BookList2 />
+      <BookDetail />
     </div>
   }
 }

@@ -8,6 +8,17 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 20px;
   font: $base-text-size / 1 $base-font-family;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 25px;
+  color: blue;
 }
+
+// ul li {
+//   font-size: 2vw;
+// }
+//
+// ul .leftSideList {
+//   color: blue;
+// }
